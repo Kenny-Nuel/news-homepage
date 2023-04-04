@@ -1,0 +1,113 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 2em;
+}
+
+.link,
+.content h2 {
+  color: hsl(236, 13%, 42%);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+  transition: 0.3s ease-in-out 0.05s;
+}
+
+.imageContainer {
+  width: 40em;
+  height: 20em;
+}
+
+.firstSection {
+  display: flex;
+  gap: 2em;
+  margin-top: 2em;
+  justify-content: center;
+}
+
+@media (max-width: 45em){
+  .firstSection {
+    display: block;
+  }
+  .secondContainer {
+    text-align: center;
+  }
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.fcSub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fcSub h1 {
+  font-size: 2.5em;
+  width: 5em;
+}
+
+.fcSub button {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  padding: 1em 2em; 
+  border: none;
+}
+
+.fcSub button:hover {
+  cursor: pointer;
+  background-color: hsl(240, 100%, 5%);
+  transition: 0.3s ease-in-out 0.05s;
+}
+
+.secondContainer {
+  background-color: hsl(240, 100%, 5%);
+  padding: 1em 1em;
+  max-height: 60em;
+  max-width: 20em;
+}
+
+.sc-1,
+.sc-2 {
+  border-bottom: 1px solid grey;
+}
+.sc {
+  color: white;
+}
+
+.secondContainer p {
+  color: grey;
+}
+
+.secondSection,
+.thirdContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 1em;
+  margin-left: 2.5em;
+}
+
+.thirdContainer img {
+  width: 5em;
+  height: 10em;
+}
+
+.sc2 {
+  color: hsl(240, 100%, 5%);
+}
