@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -94,12 +94,12 @@ nav ul li a:hover {
   color: white;
   padding: 1em 2em;
   border: none;
+  transition: 0.3s ease-in-out 0.05s;
 }
 
 .header-section-content button:hover {
   cursor: pointer;
   background-color: var(--deep-blue);
-  transition: 0.3s ease-in-out 0.05s;
 }
 
 .header-side {
@@ -120,6 +120,11 @@ nav ul li a:hover {
 
 .single-sc a {
   color: white;
+  transition: all ease-in-out 0.5s;
+}
+
+.single-sc a:hover {
+  color: var(--primary-yellow);
 }
 
 .header-side h1 {
@@ -161,6 +166,14 @@ nav ul li a:hover {
 
 .news-thumbnail .content {
   margin-left: 110px;
+}
+
+.nt-header-text a {
+  transition: 0.3s ease-in-out 0.05s;
+}
+
+.nt-header-text a:hover {
+  color: var(--primary-yellow);
 }
 
 @media screen and (max-width: 1020px) {
